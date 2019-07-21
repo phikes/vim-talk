@@ -1,49 +1,132 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>A Vimtroduction</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-		<script src="js/reveal.js"></script>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>A Vimtroduction</section>
+        <section>
+          <h1><img src="assets/face.jpg"></h1>
+          <h2>Phillip Kessels <small>Full Stack Dev, Startup Guy</small></h2>
+          <p>@phillipkessels/@phikes</p>
+        </section>
+        <section>
+          <section>"Mandatory Vim Quit Joke"</section>
+          <section><img src="assets/quit.png" alt=""></section>
+        </section>
+        <section>
+          <section>
+            <h1>History</h1>
+            <img src="assets/typewriter.gif">
+          </section>
+          <section>
+            <h1>When was <span class="fragment">VIM created?</span></h1>
+            <p class="fragment">1988 (!)</p>
+            <p class="fragment">first public release in 1991</p>
+            <p class="fragment">based on vi (1976)</p>
+            <p class="fragment">(which was ex put directly into visual mode)</p>
+          </section>
+          <section>
+            <h1>What does <span class="fragment">VIM even mean?</span></h1>
+            <p class="fragment">Vi IMproved <span class="fragment">(originally Vi IMitation, changed 1993)</span></p>
+          </section>
+          <section>
+            <h1>Who <span class="fragment">created VIM?</span></h1>
+            <p class="fragment">Bram Moolenar</p>
+            <img class="fragment" src="assets/windmill.gif">
+            <p class="fragment">(Moleiro em português, Müller in Deutsch, Miller in english)
+          </section>
+          <section>
+            <h1>Useful Party Knowledge</h1>
+            <img src="assets/party.gif">
+          </section>
+        </section>
+        <section>
+          <h1>HANDS ON!</h1>
+          <pre>$ vim --version || (which brew && brew install)</pre>
+        </section>
+        <section>
+          <h1>Advanced topics</h1>
+          <ul>
+            <li>Buffers, Windows</li>
+            <li>Vimscript</li>
+            <li>...</li>
+          </ul>
+        </section>
+        <section>
+          <h1>Distributions</h1>
+          <img class="fragment" src="assets/garfield.gif" alt="">
+          <p class="fragment"><a href="http://vim.spf13.com/">spf13-vim</a></p>
+        </section>
+        <section>
+          <h1>Resources</h1>
+          <ul>
+            <li><a href="https://vim.fandom.com/wiki/Vim_Tips_Wiki">Vim Tips Wiki</a></li>
+            <li><pre>vimtutor</pre></li>
+            <li><a href="http://vimcasts.org/">VIMCASTS.org</a></li>
+            <li><a href="http://vimcasts.org/publications/">Practical Vim - Edit Text at the Speed of Thought - Drew Neil</a></li>
+            <li><a href="https://vim-adventures.com/">VIM Adventures</a></li>
+          </ul>
+        </section>
+        <section>
+          <h1>Bonus: Plugin Showoff</h1>
+          <ul>
+            <li><a href="https://github.com/tpope/vim-surround">surround.vim</a></li>
+            <li><a href="https://github.com/tpope/vim-fugitive">fugitive.vim</a></li>
+            <li><a href="https://github.com/scrooloose/nerdtree">The NERDTree</a></li>
+            <li><a href="https://github.com/ctrlpvim/ctrlp.vim">ctrlp.vim</a></li>
+            <li><a href="https://github.com/mattn/emmet-vim">Emmet-vim</a></li>
+          </ul>
+          <p class="fragment">Of which 50% are by the awesome Tim Pope</p>
+        </section>
+        <section>
+          <h1>That's it, folks!</h1>
+          <p class="fragment">Thank you mom and dad</p>
+          <p class="fragment">Questions?</p>
+          <p class="fragment">Use StackOverflow</p>
+          <p class="fragment">(no, don't, use vi Stack Exchange)</p>
+          <p class="fragment">Hope you found my talk vimteresting</p>
+        </section>
+      </div>
+    </div>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
-</html>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+  </html>
