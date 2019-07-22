@@ -40,8 +40,10 @@ VIM is a mode-based editor.
 In normal mode:
 * press i to go to insert mode before cursor, a to go to insert mode after cursor
 * I to move to the beginning of the line, A to move to the end of the line
+* o opens a newline below and O one above
 
 Write your name HERE. And after the colon:
+Fit a newline between this and the previous line and write your username.
 
 BACK TO NORMAL: Press ESC
 
@@ -122,3 +124,15 @@ OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD
 OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD
 OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD
 OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD OLD
+
+## Bonus motions
+
+* t/T jumps BEFORE the next or previous occurence of the following character. (e.g. tA jumps to this A)
+* f/F is like t/T but jump ON the character
+
+## Copy/Paste
+
+* yy for the whole line (works with motions as well, so y + Motion) to copyyyyy (or yyyyank)
+* p for pasting (if you copied a line-ending use P to paste above)
+
+Copy me until the dot. And paste me after the colon:
