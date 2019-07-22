@@ -32,6 +32,7 @@ VIM is a mode-based editor.
 * :help motion.txt
 
 ### Repeat motions
+
 * use 20j to jump 20 lines
 * use repeat with many other motions
 
